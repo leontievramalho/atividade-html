@@ -1,0 +1,73 @@
+header{
+    text-align: center;
+    font-weight: bold;
+}
+
+hr{
+    size: 2px;
+    color: grey;
+}
+
+ul{
+    list-style: square;
+    color: black;
+}
+
+li span{
+    color: green;
+}
+li span span{
+    color: brown;
+}
+
+.paragrafo-sem-linha{
+    margin: 0;
+}
+
+table{
+    border: 1px solid grey;
+}
+th{
+    border: 1px solid grey;
+    padding-inline: 40px;
+}
+td{
+    border: 1px solid grey;
+}
+
+tr[id="cinza"]{
+    background-color: lightgrey;
+}
+td[id="vermelho"]{
+    color: red;
+    text-align: center;
+}
+td[id="verde"]{
+    color: green;
+    text-align: center;
+}
+
+div{
+    display: inline-block;
+}
+
+.div-5{
+    display: inline-block;
+    width: 7%;
+}
+
+fieldset{
+    border: 0px;
+}
+
+h1{
+    border: double white;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    font-size: 17px;
+}
+
+h2{
+    font-size: 17px;
+}
